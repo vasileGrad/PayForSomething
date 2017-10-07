@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-define('SITE_URL', 'http://localhost:83/payPal/PayForSomething/index.php');
+define('SITE_URL', 'http://localhost:83/payPal/PayForSomething');
 
 $paypal = new \PayPal\Rest\ApiContext(
 	new \PayPal\Auth\OAuthTokencredential(
